@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600¬family=Open+Sans:wght@600¬display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    /*background: skyblue;*/
+    /*Añadir foto de fondo sustituyendo el color*/
+    background-image: url(img/3147823.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+section{
+    position: relative;
+    width: 100€;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color:#fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(137, 66, 188);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+header.logo:hover{
+    color: rgb(137, 66, 188);
+    background: #fff;
+    transition: 1s;
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+}
+
+header .navbar li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+header .navbar li a:hover{
+    border-bottom: 5px solid rgb(137, 66, 138);
+    padding: 2px;
+}
+
+/*Contenido de la web*/
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.contenido .tituloBox{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+
+.contenido .tituloBox h2{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contenido .tituloBox h2 span{
+    background: rgb(137, 66, 188);
+    color: white;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.contenido .tituloBox p{
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.contenido .tituloBox a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(137, 66, 138);
+    background: #fff;
+    padding: 10px 20px;
+    margin: left 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.contenido .tituloBox a:hover{
+    color: #fff;
+    background: rgb(137, 66, 138);
+    transition: 0.5s;
+}
+
+.contenido .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -50px;
+    z-index: -5;
+}
+
+.contenido .imgBox img{
+    height: 80vh;
+}
+
+.contenido .imgBox img:hover{
+    height: 80vh;
+}
+
+/*Copyright*/
+
+.copyright{
+    position: absolute;
+    bottom: 0px;
+    left: 800px;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    color: #fff;
+    text-align: center;
+    margin-left: 100px;
+}
+
+/*Redes Sociales*/
+
+.redesSociales{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+
+.redesSociales li{
+    padding: 10px;
+}
+
+.redesSociales li a{
+    color: #fff;
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+
+.redesSociales li:hover a{
+    color: rgb(45, 3, 74);
+}
+
+/*****************************/
+/*circulo*/
+.circulo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(2, 112, 108, 0.386);
+    clip-path: circle(650px at right 800px);
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+
+table{
+    border:2px solid black;
+    margin-top: 8%;
+    color: whitesmoke;
+    align-items: center;
+    margin-left: 450px;
+    background-color: grey;
+
+}
+table tr td img{
+    width: 50px;
+    height: 80px;
+    
+}
+.table{
+    table-layout: auto;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.mas{
+    padding-top: 150px;
+    margin-left: 500px;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.project h3 {
+    text-align: center;
+}
+
+.project p {
+    text-align: center;
+}
+
+.project a {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (min-width:576px){
+    header{
+        display: flex;
+    }
+    .navbar{
+       display: inline-block; 
+    }
+    .contenido{
+        display: flex;
+    }
+    .tituloBox{
+        display: flex;
+    }
+    .imgBox{
+        width: 50%;
+        height: 25%;
+    }
+}
+@media screen and (min-width:992px){
+    header{
+        display: flex;
+    }
+    .imgBox{
+        height: 33%;
+        width: 33%;
+    }
+
+}

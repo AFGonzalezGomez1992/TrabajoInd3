@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="img/icon.png" type="img">
+    <title>Formulario</title>
+</head>
+<body id="formulario">
+    <form action="https://www.as.com" method="post">
+        <fieldset>
+            <legend><Span>Breaking Bad - Que comience el juego!</Span></legend>
+            <fieldset>
+                <legend><span>Datos Personales</Span></legend>
+                <br>Nombre: <input type="text" name="nombre" id="" label="nombre" required>
+                <br>Apellidos: <input type="text" name="apellidos" id="" label="apellidos" required>
+                <br>Dirección: <input type="text" name="direccion" id="" label="direccion">
+                <br>Numero, piso: <input type="text" name="numero, piso" id="" label="numero, piso">
+                <br>Código Postal:<input type="text" name="codigo postal" id="" label="codigo postal">
+                <br>Ciudad: <input type="text" name="ciuad" id="" label="ciudad">
+                <br>DNI: <input type="text" name="dni" id="" label="dni">
+                <br>Correo Electrónico: <input type="text" name="correo" id="" label="correo" required>
+                <br>Sexo: <input type="radio" name="Sexo" value="H">Hombre <input type="radio" name="Sexo" value="M">Mujer
+                <br>Fecha de nacimiento: <input type="date">
+                </fieldset>
+                
+                <br>Seleciona un personaje:
+                    <select name="Personajes" id="">
+                        <option value="1">Jessie Pinkman</option>
+                        <option value="2">Walter White</option>
+                        <option value="3">Saul Goodman</option>
+                        <option value="4">Gustavo Fring</option>
+                        <option value="5">Pollos Hemanos</option>
+                        <option value="6">Otros personajes</option>
+                    </select>
+                <br>
+                <br>Comentarios:
+                <br><textarea name="comentarios" id="" cols="50" rows="10"></textarea>
+                <br>
+                <br><input type="submit" value="Enviar" formaction="mailto:raulrodriguez@proeucaglobal.com">
+                <input type="reset" value="Borrar">
+                Adjuntar Archivos: <input type="file" name="archivos" accept=".pdf, jpg, .doc" multiple>
+                
+        </fieldset>
+    </form>
+</body>
+</html>
